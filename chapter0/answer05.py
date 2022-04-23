@@ -13,3 +13,6 @@ if __name__ == "__main__":
 
     print(words_bi_gram)
     print(str.split())
+
+
+## revise later

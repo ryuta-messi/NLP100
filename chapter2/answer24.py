@@ -7,3 +7,6 @@ uk_text = df[df["title"]=="イギリス"]["text"].values[0]
 
 for file in re.findall(r'\[\[(ファイル|File):([^]|]+?)(\|.*?)+\]\]',uk_text):
     print(file)
+    
+    
+## revise later

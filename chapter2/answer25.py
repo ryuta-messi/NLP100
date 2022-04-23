@@ -15,3 +15,6 @@ for line in uk_texts:
         ans[r[1]]=r[2]
         
 print(ans)
+
+
+## revise later
