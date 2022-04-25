@@ -25,4 +25,4 @@ for line in uk_texts:
 print(remove_inner_links(remove_stress(ans)))
 
 ## revise later
-
+# \1 ～ \9	一致した文字列の１～９番目に対応する文字列に置換。
