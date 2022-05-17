@@ -1,6 +1,14 @@
+from collections import defaultdict
+from answer30 import sentences
 
-nouns = 'abc'
+ans = defaultdict(int)
+for sentence in sentences:
+    for morph in sentence:
+        if morph['pos'] != '記号':
+            ans[morph['surface']] += 1
+            
 
-nouns = ''.join([nouns,'efg'])
+ans = sorted(ans.items(),key=lambda x:x[1],reverse=True)
 
-print(nouns)
+for word in ans[:5]:
+    print(word)
