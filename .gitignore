@@ -3,3 +3,4 @@
 ../chapter*/__pycache__
 ../chapter5/*.csv
 ../chapter5/*.txt
+../chapter*/*.ipynb
