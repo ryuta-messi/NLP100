@@ -1,0 +1,6 @@
+# chapter3/neko.txt
+# chapter3/neko.txt.mecab
+../chapter*/__pycache__
+../chapter5/*.csv
+../chapter5/*.txt
+../chapter*/*.ipynb
