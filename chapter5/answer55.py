@@ -17,8 +17,8 @@ model = joblib.load('model.joblib')
 print(f'train confusion matrix: \n {confusion_matrix(y_train,model.predict(X_train))}')
 print(f'test confusion matrix: \n {confusion_matrix(y_test,model.predict(X_test))}')
 
-sns.heatmap(confusion_matrix(y_train,model.predict(X_train)),annot=True,cmap='Blues')
+sns.heatmap(confusion_matrix(y_train,model.predict(X_train)),annot=True,cmap='Oranges')
 plt.show()
-sns.heatmap(confusion_matrix(y_test,model.predict(X_test)),annot=True,cmap='Blues')
+sns.heatmap(confusion_matrix(y_test,model.predict(X_test)),annot=True,cmap='Oranges')
 plt.show()
 ## revise about confusion_matrix 

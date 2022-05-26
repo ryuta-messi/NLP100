@@ -1,4 +1,3 @@
-from turtle import pen
 import pandas as pd
 import joblib
 from sklearn.linear_model import LogisticRegression

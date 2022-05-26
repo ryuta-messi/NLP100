@@ -8,6 +8,6 @@ X_test = pd.read_table('test.feature.txt')
 
 model = joblib.load('model.joblib')
 
-y_train = model.predict(X_test)
+test_prediction = model.predict(X_test)
 
-print(y_train)
+print(test_prediction)
