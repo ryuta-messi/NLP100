@@ -7,3 +7,4 @@
 ../chapter6/GoogleNews-vectors-negative300.bin.gz
 ../*/model.joblib
 ../chapter*/*.tab
+../chapter*/*.npy
