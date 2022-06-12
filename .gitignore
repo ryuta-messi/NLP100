@@ -1,5 +1,6 @@
 # chapter3/neko.txt
 # chapter3/neko.txt.mecab
+../chapter*/.DS_Store
 ../chapter*/__pycache__
 ../chapter*/*.csv
 ../chapter*/*.txt
