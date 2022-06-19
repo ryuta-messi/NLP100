@@ -9,3 +9,4 @@
 ../*/model.joblib
 ../chapter*/*.tab
 ../chapter*/*.npy
+requirement.txt
