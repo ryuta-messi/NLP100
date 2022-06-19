@@ -1,11 +1,11 @@
 # chapter3/neko.txt
 # chapter3/neko.txt.mecab
-../chapter*/.DS_Store
-../chapter*/__pycache__
-../chapter*/*.csv
-../chapter*/*.txt
-../chapter*/*.ipynb
-../chapter6/GoogleNews-vectors-negative300.bin.gz
-../*/model.joblib
-../chapter*/*.tab
-../chapter*/*.npy
+.DS_Store
+__pycache__
+*.csv
+*.txt
+*.ipynb
+*.gz
+*.joblib
+*.tab
+*.npy
