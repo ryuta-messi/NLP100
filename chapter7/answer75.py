@@ -71,4 +71,5 @@ plt.plot(valid_accuracy,label="valid-accuracy")
 plt.legend()
 plt.show()
 
+
 # print(net.state_dict()['weight'])
